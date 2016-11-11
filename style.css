@@ -1,0 +1,127 @@
+body {
+    margin: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.blockhaut {
+    width: 100%;
+    display: flex;
+    height: 25%;
+}
+
+.blockgauche {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+
+.blockmilieu {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockdroit {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.b {
+    background-color: #0179B8;
+    border: 5px solid black;
+}
+
+.r {
+    background-color: red;
+    border: 5px solid black;
+}
+
+.y {
+    background-color: #FCD201;
+    border: 5px solid black;
+}
+
+.w {
+    border: 5px solid black;
+}
+
+.blockhaut .y {
+    flex: 0.95;
+}
+
+.blockhaut .r {
+    flex: 3;
+}
+
+.blockhaut .b {
+    flex: 2;
+}
+
+.blockgauche .b {
+    flex: 1;
+}
+
+.blockgauche .w {
+    flex: 2;
+}
+
+.blockmilieu .one {
+    flex: 1.5;
+}
+
+.blockmilieu .two {
+    flex: 1.5;
+    display: flex;
+}
+
+.blockmilieu .three {
+    flex: 2;
+    display: flex;
+}
+
+.one div {
+    border: 5px solid black;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.two .b.p {
+    flex: 1;
+}
+
+.two .y{
+    flex: 2.5;
+    border: 5px solid black;
+}
+
+.two .b.g {
+    flex: 2.2;
+    border: 5px solid black;
+}
+
+.three .r{
+    flex: 3;
+}
+
+.three .w{
+    flex: 1.8;
+}
+
+.blockdroit .w{
+    flex: 3.5;
+}
+
+.blockdroit .r.g{
+    flex: 3.5;
+}
+.blockdroit .y{
+    flex: 3.5;
+}
+.blockdroit .r.p{
+    flex: 1;
+}
